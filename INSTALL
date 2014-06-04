@@ -1,0 +1,83 @@
+
+NOTE: These instruction are available for use to those who are assisting with the CRASHPlayer open-source project as a developer or tester. If you are not contributing to this project in one of these capacities, you should install the app from the app store when it becomes available. 
+
+This INSTALL file will tell you how to install the latest build of CRASHPlayer on your TV to test it. These instructions don't tell you how to create a new custom build of CRASHPlayer from source. For those instructions, you will need to checkout the entire repo from gitub and follow the development instructions for Yahoo. Further links to the Yahoo instructions are at the end of this document. 
+
+The Yahoo instructions to install an app on your TV can be found here: https://developer.yahoo.com/connectedtv/installguide/CTV_IG_Testing_on_a_Consumer_Device.html
+
+Specific instructions for CRASHPlayer are below: 
+
+* You first need to download the latest compiled build of the CRASHPlayer widget. Download it at the following link: 
+    https://github.com/crashbob/CRASHPlayer/blob/master/com.crashplayer.yctv.crashplayer-1.0.11.widget?raw=true
+
+* If you want all the other icons and graphics to show up properly, also download the following image files: 
+    https://raw.githubusercontent.com/crashbob/CRASHPlayer/master/images/appIcon.png
+    https://raw.githubusercontent.com/crashbob/CRASHPlayer/master/images/screenshot-ctvstore-540.png
+    https://raw.githubusercontent.com/crashbob/CRASHPlayer/master/images/bookmark_tile.png
+    
+
+* On your TV in the Profiles screen, sign into your profile with your Yahoo ID and password. 
+
+* On your TV, you need to enable Developer apps. 
+    Press the Yahoo TV/Vizio button on the remote. 
+    Launch the TV store. 
+    Press the Green key on your remote while you are in the TV Store or click the settingsbutton on the bottom of the screen. (See screenshots on the link above.) 
+    Select the Developer Settings button. 
+    Toggle the Show My Test Apps button to On. 
+    Sign in with your Yahoo ID. 
+    A Developer Code will be displayed on the screen. 
+    Make note of this dev code, as you will need it later. 
+
+* Next you need to upload your CRASHPlayer app to the widget developer store following these instructions. 
+    Login to the Yahoo TV App Upload Tool at https://gallery.tv.widgets.yahoo.com/publisher/
+    On the Upload TV App tab, enter the data into the fields as follows: 
+
+        TV App (Widget) ID:  com.crashplayer.yctv.crashplayer
+        TV App (Widget) Version:  1.0.11
+        Author Name:  CRASHPlayer.com
+        Author Company:  [blank]
+        Author Email:  support@crashplayer.com
+        Store TV App Name:  CRASHPlayer for Plex Media Server
+        Store Publisher Name:  CRASHPlayer.com
+        Store TV App Description:  CRASHPlayer is a full-featured client for the Plex Media Server. Includes Direct Play support for Movies, TV Shows, and Channels. For more details see http://crashplayer.com
+        
+    For the image files requested, point them to the files that you downloaded earlier as follows (I think these are all optional): 
+        Store Icon File:  appIcon.png
+        Store Image File:  screenshot-ctvstore-540.png
+        App Bookmark File:  bookmark_tile.png
+        App Bookmark720 File: bookmark_tile.png
+
+    For the TV App (Widget) File, point it to the widget file you downloaded in the first step. 
+
+    For the TV Platform, select the your TV Brand. 
+    For the Developer Codes, put in the developer codes you gathered earlier from all the TVs you want to install the app on. Separate codes with a comma: i.e. YC67,FHJ6,PL9G
+    Check the box that the TV App complies with the Terms of Use. 
+    Click Submit. 
+    Check the My TV Apps tab to see that your app shows up there (it takes a couple seconds to show up sometimes). 
+
+* Install the app on your TV from the Yahoo TV Store
+    Open the TV Store app on the TV.
+    Select Categories
+    Select the Test Apps category
+    Select CRASHPlayer from the list and install it on you profile
+
+The app should now be in your dock and ready to test. 
+
+
+YAHOO Connected TV documentation:
+ 
+Release Notes: https://developer.yahoo.com/connectedtv/releasenotes/
+Yahoo Connected TV on YDN: https://developer.yahoo.com/connectedtv/
+Quick Start Guide: https://developer.yahoo.com/connectedtv/quickstart/
+Developer Guide: https://developer.yahoo.com/connectedtv/devguide/
+Application Framework API: https://developer.yahoo.com/connectedtv/kontxapiref/
+Media Player API: https://developer.yahoo.com/connectedtv/kontxapiref/YCTV_KONTX_Media_Player.html
+Acceptance Criteria Form (.doc): https://developer.yahoo.com/connectedtv/assets/YWE_Acceptance_Criteria.doc
+Acceptance Criteria Form (.rtf): https://developer.yahoo.com/connectedtv/assets/YWE_Acceptance_Criteria.rtf
+Yahoo Smart TV Blog: http://yahoosmarttv.tumblr.com/
+Developer Forums: https://developer.yahoo.com/forum/Connected TV
+Device Communication: https://developer.yahoo.com/connectedtv/devicecommunication/
+FAQ: https://developer.yahoo.com/connectedtv/faq/
+TV App Upload Tool: https://gallery.tv.widgets.yahoo.com/publisher/
+
+
