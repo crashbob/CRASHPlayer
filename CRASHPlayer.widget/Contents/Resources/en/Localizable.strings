@@ -1,0 +1,126 @@
+"dialog_ok_button"="Ok";
+"dialog_retry_button"="Retry";
+"dialog_cancel_button"="Cancel";
+"app_title"="CRASHPlayer";
+"back_button_label"="Back";
+"play_button_label"="Play";
+"mark_watched_label"="Mark Watched";
+"mark_unwatched_label"="Mark Unwatched";
+"settings_button"="Settings";
+"load_button"="Load %s";
+"refresh_button"="Refresh";
+"welcome_to"="Welcome to %s";
+"intro_terms"="By using %s, you agree to the terms, conditions of service, and privacy policy at at %s";
+"intro_not_plex"="%s is NOT created, supported, or maintained by Plex Inc. For support, contact %s";
+
+"duration_label"="Duration:";
+"progress_label"="Progress:";
+
+
+/*PlexService*/
+"media_service"="PlexService";
+"no_config"="%s is not yet configured. Cannot initialize %s.";
+"init"="Initializing %s"; /*Initialzing PlexService*/
+"starting"="Starting %s"; /*Initialzing PlexService*/
+"plex_alive"="Plex Server is ALIVE";
+"ping_error"="Error pinging plex server.";
+"ping_timeout"="Timeout while pinging plex server.";
+"load_error"="Error getting data for: %s";
+"progress_error"="Error sending progress to server.";
+"network_down"="The network is down!";
+"call_timeout"="%s Call timed out";
+"huge_response"="Response Too Large";
+"huge_response_message"="Your TV is unable to handle this much data. Unable to continue.";
+"xhr_error"="Received an error response from XHR call: %s";
+"plex_error"="The plex server returned error: ";
+"error_code"="Error Code: ";
+"plex_error_title"="Plex Server Error";
+"plex_server_default_message"="The plex server returned an error. There is nothing more to see here.";
+"plexservice_unavail"="The PlexService is not available.";
+"plexservice_unavail_message"="Your Plex Media Server cannot be reached. Your network or server may be down or you may need to configure the IP address in Settings.";
+"plex_server_down"="There was a problem contacting your Plex Media Server. Is your server up?";
+"library"="Library";
+"channels"="Channels";
+"network_error_dialog_title"="Network Error";
+"network_error_dialog_message"="Your TV is unable to communicate with the network. Please try again later.";
+
+
+/*Settings View*/
+"back_to_app"="Back to %s"; /*Back to CRASHPlayer*/
+"server_settings_button"="Server Settings";
+"server_IP_entry"="Server IP Address";
+"server_port_entry"="Server Port";
+"player_settings_button"="Player Settings...";
+"library_settings_header"="Library Settings";
+"animations"="Animations:";
+"restart_required"="May Require TV restart";
+"about_button"="About %s"; /*About CRASHPlayer*/
+"defaults_button"="Reset to Defaults";
+"defaults_dialog_title"="Reset to Defaults";
+"defaults_dialog_message"="This will reset all configuration options to default values and exit the application. Continue?";
+"on"="On";
+"off"="Off";
+
+/*PlayerSettings View*/
+"back_to_main_settings"="Back to Main Settings";
+"rw_ff_header"="Rewind/FastForward";
+"rw_ff_active"="Active:";
+"rw_ff_speed"="Speed:";
+"instant_replay"="Instant Replay (sec)";
+"local_playback_settings"="Local Playback Settings";
+"playback_select_quality"="Select Quality";
+"auto"="Auto";
+"manual"="Manual";
+"preferred_resolution"="Preferred Max Resolution";
+"remote_playback_settings"="Channel/Remote Playback Settings";
+"auto_mode_description"="Auto mode attempts to find an appropriate bitrate stream based on TV bandwidth. If this fails, it attempts to use the preferred max resolution.";
+
+/*Library*/
+"hours_minutes"="%1$s hr %2$s min"; /* example: 2 hr 15 min */
+"minutes_seconds"="%1$s min %2$s sec"; /* example: 45 min 15 sec */
+"seconds"="%1$s sec"; /* example: 45 sec */
+"return_to_app"="Return to %s"; /* Return to CRASHPlayer */
+"exit_to_dock"="Exit to Dock";
+"request_error_dialog_title"="Request Error";
+"request_error_message"="A valid response was not received from the Plex Media Server.";
+"empty_section_title"="Empty Section";
+"empty_section_message"="Sorry, this section appears to be empty.";
+"played_duration"="Played %1$s of %2$s";
+"episode_label"="Episode: %s";
+"season_episode_label"="Season: %s, Episode: %s";
+"season_label"="Season: %s";
+"not_supported_dialog_title"="Not Supported";
+"not_supported_dialog_message"="This version of %s does not yet support this media type. Please send a request to %s";
+"resume_dialog_title"="Resume?";
+"resume_dialog_message"="Resume or Play from Beginning";
+"resume_time_label"="Resume from: %s";
+"play_from_start"="Play from beginning";
+"media_unavailable_dialog_title"="Media Unavailable";
+"media_unavailable_dialog_message"="The media is unavailable at this time.";
+"error_string"="ERROR: %s";
+"retry_request_message"="Please try again later.";
+"section_title_missing"="None";
+"episode_letter"="E"; /* Used for things like S3E12 */
+"season_letter"="S"; /* Used for things like S3E12 */
+
+
+/* Player Screen */
+"infobar_quality"="Quality: %s";
+"infobar_bitrate"="Bitrate: %s";
+"initializing"="Initializing";
+"infobar_buffer_count"="Buffer Count: %s";
+"infobar_missing"="None";
+"infobar_buffer_percent"="Buffer %: %s";
+"infobar_framerate"="Frame Rate: %s";
+"playback_auto_dialog_button"="Auto (bitrate and bandwidth)";
+"streams_dialog_available_title"="Available Streams";
+"streams_dialog_available_message"="Choose a media stream for playback.";
+"direct_play_error_message"="Sorry. Your TV doesn't support Direct Play of this media or cannot get to the media";
+"media_play_error_message"="Sorry. Your TV had a problem playing this media.";
+"video_error_dialog_title"="Video Playback Error";
+"video_error_dialog_message"="We encountered an error attempting to playback the requested video. Please try again and if the problem persists try again later.";
+"now_playing_generic"="Return to Video";
+"now_playing"="Return to %s";
+
+
+

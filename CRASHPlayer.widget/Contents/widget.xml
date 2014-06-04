@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+    <name>CRASHPlayer</name>
+    <version>1.0.11</version>
+    <identifier>com.crashplayer.yctv.crashplayer</identifier>
+    <author name="CRASHPlayer.com" organization="" href="http://crashplayer.com" />
+    <copyright>2014 CRASHPlayer.com</copyright>
+    <description>CRASHPlayer is a full-featured client for the Plex Media Server. Includes Direct Play support for Movies, TV Shows, and Channels. For more details see http://crashplayer.com</description>
+    <platform minVersion="5.5" />
+    <security>
+	<filesystem>full</filesystem>
+	<command>true</command>
+        <http>all</http>
+    </security>
+    <image usage="960x540.logo"                     src="Assets/960x540/title-logo-540.png" />
+    <image usage="960x540.loading.snippet"          src="Assets/960x540/title-loading-logo-540.png"/>
+    <image usage="960x540.icon"                     src="Assets/960x540/appIcon.png" />
+</metadata>

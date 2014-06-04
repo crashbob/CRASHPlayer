@@ -1,0 +1,124 @@
+"dialog_ok_button"="Da/Ok";
+"dialog_retry_button"="Reincearca/Retry";
+"dialog_cancel_button"="Anuleaza/Cancel";
+"app_title"="CRASHPlayer";
+"back_button_label"="Inapoi/Back";
+"play_button_label"="Ruleaza/Play";
+"mark_watched_label"="Marcheaza ca Vazut";
+"mark_unwatched_label"="Marcheaza ca Nevazut";
+"settings_button"="Setari";
+"load_button"="Incarca %s";
+"refresh_button"="Adu la zi";
+"welcome_to"="Bun venit la %s";
+"intro_terms"="Prin faptul ca folosesti %s, esti de acord cu termenii, conditiile si intimitatea datelor peronale la %s";
+"intro_not_plex"="%s NU este creat, suportat sau intretinut de catre Plex Inc. Pentru ajutor, contactati %s";
+
+"duration_label"="Duratie:";
+"progress_label"="Progres:";
+
+
+/*PlexService*/
+"media_service"="PlexService";
+"no_config"="%s nu este configurat. Nu pot initializa %s.";
+"init"="Initializez %s"; /*Initialzing PlexService*/
+"starting"="Pornesc %s"; /*Initialzing PlexService*/
+"plex_alive"="Plex Server is PORNIT";
+"ping_error"="Eroare PING catre server";
+"ping_timeout"="PING catre plex server a durat prea mult.";
+"load_error"="Eroare primind date pentru: %s";
+"progress_error"="Eroare trimitand date spre server.";
+"network_down"="Reteaua este oprita!";
+"call_timeout"="%s cererea a durat prea mult";
+"huge_response"="Raspunsul este prea mare";
+"huge_response_message"="TV-ul tau nu poate sa proceseze asa de multe data. Nu pot continua";
+"xhr_error"="Raspuns EROARE de la cererea XHR: %s";
+"plex_error"="Severul Plex a returnat eroare: ";
+"error_code"="Cod de eroare: ";
+"plex_error_title"="Eroare Plex Server";
+"plex_server_default_message"="Severul de Plex a intors o eroare. Nu mai ai ce vedea aici";
+"plexservice_unavail"="PlexService nu este disponibil";
+"plexservice_unavail_message"="Al tau Plex Media Server nu poate fi gasit. Reteaua ta poate fi oprita sau poate trebuie sa configurezi Adresa de IP in Setarit";
+"plex_server_down"="Am gasit o problems cu serverul de Plex Media. E pornit?";
+"library"="Biblioteca";
+"channels"="Canale";
+"network_error_dialog_title"="Eroare de retea";
+"network_error_dialog_message"="TV-ul tau nu poate cominica cu reteaua ta. Te rog sa incerci mai tarziu.";
+
+
+/*Settings View*/
+"back_to_app"="Inapo la %s"; /*Back to CRASHPlayer*/
+"server_settings_button"="Setari de Server";
+"server_IP_entry"="Adresa de IP la Sever";
+"server_port_entry"="Portul Severului";
+"player_settings_button"="Setari de Player...";
+"library_settings_header"="Setari de Biblioteca";
+"animations"="Animatii:";
+"restart_required"="E posibili sa ceara repornirea TV-ului";
+"about_button"="Despre %s"; /*About CRASHPlayer*/
+"defaults_button"="Resetare la valorile originale";
+"defaults_dialog_title"="Resetare la valorile originale";
+"defaults_dialog_message"="Aceasta operatie va reseta toate optiunile la valorile original si va opri aplicatia. Continua?";
+"on"="Pornit/On";
+"off"="Oprit/Off";
+
+/*PlayerSettings View*/
+"back_to_main_settings"="Inapoi la Setarile Principale";
+"rw_ff_header"="Inapoi/Inainte";
+"rw_ff_active"="Activ:";
+"rw_ff_speed"="Viteza:";
+"local_playback_settings"="Setari de rulaj locale";
+"playback_select_quality"="Selecteaza calitatea";
+"auto"="Auto";
+"manual"="Manual";
+"preferred_resolution"="Prefer Rezolutia Maxima";
+"remote_playback_settings"="Canal/Setari de rulaj la distanta";
+"auto_mode_description"="Modul Auto incearca sa gaseasca viteza optima pentru internetul TV-ului. Daca esuez, voi incerca sa folosesc rezoluatia preferata a TV-ului";
+
+/*Library*/
+"hours_minutes"="%1$s ora %2$s minute"; /* example: 2 hr 15 min */
+"minutes_seconds"="%1$s minute %2$s secunde"; /* example: 45 min 15 sec */
+"seconds"="%1$s secunde"; /* example: 45 sec */
+"return_to_app"="Intoarce la %s"; /* Return to CRASHPlayer */
+"exit_to_dock"="Exit la Dock";
+"request_error_dialog_title"="Eroare de cerere";
+"request_error_message"="Un respuns valabil nu a fort primit de la Plex Media Server.";
+"empty_section_title"="Sectiune goala";
+"empty_section_message"="Imi pare rau, aceasta sectinue apare goala.";
+"played_duration"="Rulat %1$s din %2$s";
+"episode_label"="Episodul: %s";
+"season_episode_label"="Sezon: %s, Episod: %s";
+"season_label"="Sezon: %s";
+"not_supported_dialog_title"="Nu este suportat";
+"not_supported_dialog_message"="Aceasta versiune a %s nu suporta acet tip de fisier. Faceti o cerere la %s";
+"resume_dialog_title"="Continua?";
+"resume_dialog_message"="Continua sau Ruleaza de la Inceput";
+"resume_time_label"="Continua de la: %s";
+"play_from_start"="Ruleaza de la inceput";
+"media_unavailable_dialog_title"="Fisier nedisponibil";
+"media_unavailable_dialog_message"="Media nu este disponibila acum.";
+"error_string"="EROARE: %s";
+"retry_request_message"="Incearca din nou?";
+"section_title_missing"="Niciunul";
+"episode_letter"="E"; /* Used for things like S3E12 */
+"season_letter"="S"; /* Used for things like S3E12 */
+
+
+/* Player Screen */
+"infobar_quality"="Calitate: %s";
+"infobar_bitrate"="Bitrate: %s";
+"initializing"="Initializez";
+"infobar_buffer_count"="Buffer count: %s";
+"infobar_missing"="Niciunul";
+"infobar_buffer_percent"="Buffer %: %s";
+"infobar_framerate"="Cadre pe secunda: %s";
+"playback_auto_dialog_button"="Auto (calitate si veteza)";
+"streams_dialog_available_title"="Disponibile";
+"streams_dialog_available_message"="Alege un fisier pentru al rula.";
+"direct_play_error_message"="Imi pare rau. TV-ul tau nu suporta Direct Play din acest fixier sau nu pot sa accesez fisierul";
+"media_play_error_message"="Imi pare rau. TV-ul tau are probleme cu fisierul acesta.";
+"video_error_dialog_title"="Eroare de rulaj video";
+"video_error_dialog_message"="Am dat peste o eroare incercand sa rulez fisierul cerut. Te rog sa incerci din nou, si daca problema persista, incearca mai tarziu.";
+"now_playing_generic"="Intoarce la Video";
+"now_playing"="Intoarce la %s";
+
+

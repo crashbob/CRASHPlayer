@@ -1,0 +1,123 @@
+"dialog_ok_button"="Ok";
+"dialog_retry_button"="Volver aprocesar";
+"dialog_cancel_button"="Cancelar";
+"app_title"="CRASHPlayer";
+"back_button_label"="Volver";
+"play_button_label"="Play";
+"mark_watched_label"="Marque vistos";
+"mark_unwatched_label"="Marque no vistos";
+"settings_button"="Configuracíon";
+"load_button"="Cargar";
+"refresh_button"="Actualizar";
+"welcome_to"="Bienvenido a %s";
+"intro_terms"="Mediante el uso de %s, usted acepta los términos, las condiciones de servicio , y la política de privacidad en %s";
+"intro_not_plex"="%s no se crea , apoyado o mantenido por Plex Inc. Para obtener asistencia , pongase en contacto con%s";
+ 
+"duration_label"="Duración:";
+"progress_label"="Progreso:";
+ 
+ 
+/*PlexService*/
+"media_service"="PlexService";
+"no_config"="%s ya no está configurado No se puede inicializar %s.";
+"init"="Iniciando %s"; /*Initialzing PlexService*/
+"starting"="Iniciando %s"; /*Initialzing PlexService*/
+"plex_alive"="servidor Plex está VIVO";
+"ping_error"="Error ping a servidorPlex.";
+"ping_timeout"="Tiempo de espera mientras ping a servidor Plex.";
+"load_error"="Error al obtener los datos de: %s";
+"progress_error"="Error al enviar el progreso con el servidor.";
+"network_down"="La red se a reducido";
+"call_timeout"="%s llamada se corto";
+"huge_response"="Respuesta demasiado grande";
+"huge_response_message"="El televisor es incapaz de manejar esta cantidad de datos. No se puede continuar.";
+"xhr_error"="recibido una respuesta errónea de llamada XHR: %s";
+"plex_error"="El servidor Plexdevuelto un error: ";
+"error_code"="Código de error: ";
+"plex_error_title"="Error de Plex Server ";
+"plex_server_default_message"="El servidor ha devuelto un error complejo. No se puede ver mas aquí.";
+"plexservice_unavail"="El Servicio de Plex no está disponible.";
+"plexservice_unavail_message"="SuServidor Plex Media no se puede seralcanzado. La red o servidor puede ser reducido o puede ser que tenga que configurar la dirección IP en laConfiguración.";
+"plex_server_down"="Hubo un problema al comunicarse con su Servidor Plex Media. ¿Se funciona el servidor?";
+"library"="Biblioteca";
+"channels"="Canales";
+"network_error_dialog_title"="Error de red";
+"network_error_dialog_message"="El televisor no se puede comunicar con la red. Por favor, inténtelo más tarde.";
+ 
+ 
+/*Settings View*/
+"back_to_app"="Volver a %s"; /*Back to CRASHPlayer*/
+"server_settings_button"="Configuración del servidor";
+"server_IP_entry"="Dirección IP del servidor";
+"server_port_entry"="Puerto del servidor";
+"player_settings_button"="Configuración del reproductor...";
+"library_settings_header"="Configuración de la biblioteca";
+"animations"="Animaciones:";
+"restart_required"="Puede requerir reinicio del TV";
+"about_button"="Mas información %s"; /*About CRASHPlayer*/
+"defaults_button"="Restaurar valores predeterminados";
+"defaults_dialog_title"="Restaurar valores predeterminados";
+"defaults_dialog_message"="Esto restablecerá¡ todas las opciones de configuración a los valores predeterminados y salir de laaplicación. Continue?";
+"on"="On";
+"off"="No";
+ 
+/*PlayerSettings View*/
+"back_to_main_settings"="Volver aconfiguración principal";
+"rw_ff_header"="rebobinar/avancar";
+"rw_ff_active"="Activo:";
+"rw_ff_speed"="Velocidad:";
+"instant_replay"="repetición instantánea (sec)";
+"local_playback_settings"="Configuración de reproducción local";
+"playback_select_quality"="Seleccione la calidad";
+"auto"="Auto";
+"manual"="Manual";
+"preferred_resolution"="Resolución preferida";
+"remote_playback_settings"="Canal/Ajustes de reproducción a distancia";
+"auto_mode_description"="El modo Auto intenta encontrar una corriente bitrate adecuado en función de la anchura de banda de TV. Si esto no funciona, intenta utilizar la resolución preferida.";
+ 
+/*Library*/
+"hours_minutes"="%1$s hr %2$s min"; /* ejemplo: 2 hrs 15 min */
+"minutes_seconds"="%1$s min %2$s sec"; /* ejemplo: 45 min 15 sec */
+"seconds"="%1$s sec"; /* ejemplo: 45 sec */
+"return_to_app"="Volver a%s"; /* Return to CRASHPlayer */
+"exit_to_dock"="Salir al Muelle";
+"request_error_dialog_title"="Petición diálogo de título";
+"request_error_message"="Una respuesta válida no fue recibido de la Plex Media Server.";
+"empty_section_title"="Sección vacío";
+"empty_section_message"="Lo sentimos, esta sección parece estar vacío.";
+"played_duration"="Reproducido le duración %1$s de %2$s";
+"episode_label"="Episodio: %s";
+"season_episode_label"="Temporada: %s, Episodio: %s";
+"season_label"="Temporada: %s";
+"not_supported_dialog_title"="No compatible";
+"not_supported_dialog_message"="Esta versión de %s todavía no soporta este tipo de medios. Por favor, envíe una solicitud a %s";
+"resume_dialog_title"="Reanudar?";
+"resume_dialog_message"="Reanudar oEmpezar desde el principio";
+"resume_time_label"="Reanudar desde: %s";
+"play_from_start"="Reproducir desde el principio";
+"media_unavailable_dialog_title"="Media no disponible";
+"media_unavailable_dialog_message"="Los medios de comunicación no estándisponible en este momento.";
+"error_string"="ERROR: %s";
+"retry_request_message"="Mandar su pedido de nuevo?";
+"section_title_missing"="Ninguno";
+"episode_letter"="E"; /* Used for things like S3E12 */
+"season_letter"="S"; /* Used for things like S3E12 */
+ 
+ 
+/* Player Screen */
+"infobar_quality"="Calidad: %s";
+"infobar_bitrate"="Bitrate: %s";
+"initializing"="Inicializando";
+"infobar_buffer_count"="cuenta del búfer: %s";
+"infobar_missing"="Ninguno";
+"infobar_buffer_percent"="Buffer %: %s";
+"infobar_framerate"="Velocidad de fotogramas: %s";
+"playback_auto_dialog_button"="Auto (bitrate y ancho de banda)";
+"streams_dialog_available_title"="Streams Disponibles";
+"streams_dialog_available_message"="Elegir un flujo de medios para la reproducción.";
+"direct_play_error_message"="Perdon. Tu televisor no admite reproducción directa de este medio de comunicación o no puede llegar a los medios de comunicación.";
+"media_play_error_message"="Perdon. Tutelevisión tenía un problema quereproduce este medio de comunicación.";
+"video_error_dialog_title"="Error de sde vidéo.";
+"video_error_dialog_message"="Se ha detectado un error al intentar reproducir el vídeo solicitado. Por favor, inténtelo de nuevo y si el problema persiste intente de nuevo más tarde.";
+"now_playing_generic"="Regrase alVideo";
+"now_playing"="Regrase al %s";

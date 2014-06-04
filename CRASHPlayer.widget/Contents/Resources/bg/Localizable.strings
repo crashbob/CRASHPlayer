@@ -1,0 +1,124 @@
+"dialog_ok_button"="ОК";
+"dialog_retry_button"="Отново";
+"dialog_cancel_button"="Отказ";
+"app_title"="CRASHPlayer";
+"back_button_label"="Назад";
+"play_button_label"="Пускане";
+"mark_watched_label"="Отбележи - Гледано";
+"mark_unwatched_label"="Отбележи - Негледано";
+"settings_button"="Настройки";
+"load_button"="Зареди %s";
+"refresh_button"="Обновяване";
+"welcome_to"="Добре Дошли %s";
+"intro_terms"="Използвайки %s, вие приемате общите условия и правила за използване, както и пакта за защита на личните данни на%s";
+"intro_not_plex"="%s не е създанех и не се подържа от Plex Inc. За помощ, моля свържете се с %s";
+
+"duration_label"="Времетраене:";
+"progress_label"="Прогрес:";
+
+
+/*PlexService*/
+"media_service"="PlexService";
+"no_config"="%s още не е настроено. Не може да се инициализира %s.";
+"init"="Инициализиране %s"; /*Initialzing PlexService*/
+"starting"="Стартиране %s"; /*Initialzing PlexService*/
+"plex_alive"="Plex Server е АКТИВЕН";
+"ping_error"="Грешка при свързване с Plex.";
+"ping_timeout"=Времето е просрочено за връзка с Plex сървъра.";
+"load_error"="Грешка при приемане на данни за: %s";
+"progress_error"="Грешка при изпращане на прогреса на сървъра.";
+"network_down"="Мрежата не е достъпна!";
+"call_timeout"="%s Просрочено време за връка";
+"huge_response"="Отговора е прекалено голям";
+"huge_response_message"="Вашият телевизор не може да обработи количеството данни. Продължаването е невъзможно.";
+"xhr_error"="Получаване на грешка от XHR връзка: %s";
+"plex_error"="Plex Server изпрати грешка: ";
+"error_code"="Грешка: ";
+"plex_error_title"="Plex Server Проблем";
+"plex_server_default_message"="Plex Server изпрати грешка. Няма повече информация.";
+"plexservice_unavail"="PlexService не е достъпно.";
+"plexservice_unavail_message"="Вашият Plex Media Server не е достъпен. Вашата мрежа или сървер са недостъпни/изключени. Възможно е да има проблеми с IP адреса, променете го в настройките.";
+"plex_server_down"="Проблем с връзката с Plex Media Server. Активен ли е?";
+"library"="Библиотека";
+"channels"="Канали";
+"network_error_dialog_title"="Мрежов проблем";
+"network_error_dialog_message"="Вашият телевизор не може да се върже към мрежата. Пробвайте по-късно.";
+
+
+/*Settings View*/
+"back_to_app"="Назад към %s"; /*Back to CRASHPlayer*/
+"server_settings_button"="Нстройки на сървъра";
+"server_IP_entry"="Сървър IP адрес";
+"server_port_entry"="Сървър порт";
+"player_settings_button"="Настройки на плейъра...";
+"library_settings_header"="Настройки на библиотеката";
+"animations"="Анимации:";
+"restart_required"="Налага се рестартиране на вашият телеяизор";
+"about_button"="За приложението  %s"; /*About CRASHPlayer*/
+"defaults_button"="Възстановяване на настройките по подразбиране";
+"defaults_dialog_title"="Настройките по подразбиране";
+"defaults_dialog_message"="Възстановяване на всички параметри със стандартните стойности и излизане от приложението. Продължете?";
+"on"="ВКЛ";
+"off"="ИЗКЛ";
+
+/*PlayerSettings View*/
+"back_to_main_settings"="Към Основните Настройки";
+"rw_ff_header"="Превъртане Напред/Назад";
+"rw_ff_active"="Активен:";
+"rw_ff_speed"="Скорост:";
+"local_playback_settings"="Настройки за локално възпроизвеждане";
+"playback_select_quality"="Качество";
+"auto"="Автоматично";
+"manual"="Ръчно";
+"preferred_resolution"="Предпочитана максимална резолюция";
+"remote_playback_settings"="настройки на дистанционнот възпроизвеждане";
+"auto_mode_description"="Автоматично изчисляване на видео качеството на базата на мрежовата скорост. Ако това не стане, птиложението използва ще използва предпочитана максимална резолюция.
+
+/*Library*/
+"hours_minutes"="%1$s ч %2$s мин"; /* example: 2 hr 15 min */
+"minutes_seconds"="%1$s мин %2$s сек"; /* example: 45 min 15 sec */
+"seconds"="%1$s сек"; /* example: 45 sec */
+"return_to_app"="Назад %s"; /* Return to CRASHPlayer */
+"exit_to_dock"="Изход към Главно Меню";
+"request_error_dialog_title"="Заявка за грешка";
+"request_error_message"="Не е получен валиден отговор от Plex Media Server.";
+"empty_section_title"="Празен раздел";
+"empty_section_message"="Този раздел е празен.";
+"played_duration"="Гледани %1$s of %2$s";
+"episode_label"="Епизод: %s";
+"season_episode_label"="Сезон: %s, Епизод: %s";
+"season_label"="Season: %s";
+"not_supported_dialog_title"="Не се подържа";
+"not_supported_dialog_message"="Тази версия %s не подържа този тип медия. Моля изпратете заявка до %s";
+"resume_dialog_title"="Продължаване?";
+"resume_dialog_message"="Продължи или Започни от начало";
+"play_from_start"="Започни от начало";
+"media_unavailable_dialog_title"="Медията е недостъпна";
+"media_unavailable_dialog_message"="В момента медията е недостъпна.";
+"error_string"="ГРЕШКА: %s";
+"retry_request_message"="Пробвайте отново?";
+"section_title_missing"="Не Въведена";
+"episode_letter"="Е"; /* Used for things like S3E12 */
+"season_letter"="С"; /* Used for things like S3E12 */
+
+
+/* Player Screen */
+"infobar_quality"="Качество: %s";
+"infobar_bitrate"="Скорост: %s";
+"initializing"="Инициализация";
+"infobar_buffer_count"="Буфер: %s";
+"infobar_missing"="Не Въведен";
+"infobar_buffer_percent"="Буфер %: %s";
+"infobar_framerate"="Честота: %s";
+"playback_auto_dialog_button"="Автоматичен режим на качеството";
+"streams_dialog_available_title"="Налични медии";
+"streams_dialog_available_message"="Изберете медия за възпроизвеждане.";
+"direct_play_error_message"="Вашият телевизор не поддържа режим на  Direct Play за този тип медия";
+"media_play_error_message"="Вашият телевизор има проблем при възпроизвеждането.";
+"video_error_dialog_title"="Видео проблем";
+"video_error_dialog_message"="Грешка по време на възпроизвеждането. Моля опитайте отново.";
+"now_playing_generic"="Назад към видеото";
+"now_playing"="Назад към %s";
+
+
+
