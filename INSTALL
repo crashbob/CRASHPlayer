@@ -66,7 +66,7 @@ Specific instructions for CRASHPlayer are below:
         Store Icon File:  appIcon.png
         Store Image File:  screenshot-ctvstore-540.png
         App Bookmark File:  bookmark_tile.png
-        App Bookmark720 File: bookmark_tile.png
+        App Bookmark720 File: [Leave Blank]
 
     For the TV App (Widget) File, point it to the widget file you downloaded in the first step. 
 
