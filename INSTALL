@@ -16,6 +16,17 @@ Specific instructions for CRASHPlayer are below:
 * You first need to download the latest compiled build of the CRASHPlayer widget. Download it at the following link: 
     https://github.com/crashbob/CRASHPlayer/blob/master/com.crashplayer.yctv.crashplayer-1.0.11.widget?raw=true
 
+    You need to modify the .widget file to make it unique before you upload it later: 
+    
+    1. Right click on the downloaded file, rename it to .zip, and then un-zip the file.
+    2. Open up the unzipped folder, locate widget.xml file in the Contents directory, right click and open in Notepad or other text editor.
+    3. Once opened, add your name to the text in the Identifier section.
+        For example, I change that section to "com.crashplayerMYNAME.yctv.crashplayer" (without the quotes)
+    4. Then, change the last number in the Version section to any number.
+        For example, I changed the version section to "1.0.19" (without the quotes)
+    5. I then save the file. I selected the entire folder that the file was in (basically the folder you unzipped it to) and zipped it again with the name "com.crashplayerMYNAME.yctv.crashplayer-1.0.19" (or whatever number you changed it to. also named it without the quotes). Then, after it you re zipped the file, right click it and rename ONLY THE EXTENSION from .zip TO .widget.
+        For example, the end result should show something like mine "com.crashplayerMYNAME.yctv.crashplayer-1.0.19.widget" (without the quotes).
+
 * If you want all the other icons and graphics to show up properly, also download the following image files: 
     https://raw.githubusercontent.com/crashbob/CRASHPlayer/master/images/appIcon.png
     https://raw.githubusercontent.com/crashbob/CRASHPlayer/master/images/screenshot-ctvstore-540.png
